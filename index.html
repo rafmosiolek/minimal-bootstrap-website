@@ -14,17 +14,60 @@
 	<!-- Application CSS -->
 	<link rel="stylesheet" href="app/app.css">
 </head>
-<body id="page-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					Menu <i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll" href="#page-top">
+					<i class="fa fa-play-circle"></i> <span class="light">HCKN</span>
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#about">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#services">Services</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#partners">Partners</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
 
 	<!-- Header -->
-	<header>
-		<header class="content text-center">
-			<h1>HCKN</h1>
-			<p>Independent wholesale coffee roastery based in Hackney Downs.</p>
-		</header>
-	</header>
+	<header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">HCKN</h1>
+                        <p class="intro-text">Wholesale coffee roastery <br />based in Hackney Downs.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	
 
 	<!-- About -->
 	<section id="about">
@@ -98,7 +141,7 @@
 	</section>
 
 	<!-- Partners-->
-	<section id="counter">
+	<section id="partners">
 		<div class="container-fluid">
 			<div class="row text-center">
 				<div class="col-md-3">
@@ -118,9 +161,11 @@
 	</section>
 
 	<!-- Footer -->
-	<section id="footer">
-		
-	</section>
+	<footer>
+		<div class="container text-center">
+			<p>Copyright &copy; codingcouple 2016</p>
+		</div>
+	</footer>
 
 	
 	
