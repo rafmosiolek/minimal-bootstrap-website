@@ -18,3 +18,15 @@
   background-size: cover;
   -o-background-size: cover;
 }
+
+#about {
+  margin: 20px 0px 20px 0px;
+}
+
+#services {
+  margin: 20px 0px 20px 0px;
+}
+
+#partners {
+  margin: 20px 0px 20px 0px;
+}
