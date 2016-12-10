@@ -23,8 +23,40 @@
   margin: 20px 0px 20px 0px;
 }
 
+#about h3 {
+  margin: 40px;
+  font-family: "Playfair Display";
+}
+
+#about p {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
 #services {
   margin: 20px 0px 20px 0px;
+}
+
+#services .services-icon i {
+  margin: 10px;
+}
+
+#services h3 {
+  margin: 40px;
+  font-family: "Playfair Display";
+
+}
+
+#services h5 {
+  margin: 10px;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+#services p {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  margin-bottom: 20px;
 }
 
 #partners {
