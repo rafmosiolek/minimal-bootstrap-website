@@ -21,6 +21,11 @@
 
 #about {
   margin: 20px 0px 20px 0px;
+  height: 300px;
+}
+
+#about .text-center {
+  margin-top: 4.33%;
 }
 
 #about h3 {
@@ -35,15 +40,20 @@
 
 #services {
   margin: 20px 0px 20px 0px;
+  background-color: #2980b9;
+  color: #eee;
 }
 
 #services .services-icon i {
   margin: 10px;
+  color: #eee;
 }
 
 #services h3 {
   margin: 40px;
   font-family: "Playfair Display";
+  font-size: 38px;
+
 
 }
 
@@ -61,4 +71,20 @@
 
 #partners {
   margin: 20px 0px 20px 0px;
+  height: 200px;
+
+}
+
+#partners .col-md-3 {
+  margin: 100px 0;
+
+}
+
+footer {
+  background-color: #34495e;
+  color: #eee;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
