@@ -8,7 +8,38 @@
 .navbar {
   height: 50px;
   background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Open Sans"
 }
+
+.navbar .light, a {
+  color: #ecf0f1;
+}
+
+a.navbar-brand.page-scroll:hover {
+  color: #2980b9;
+}
+
+i.fa {
+  color: #fff;
+}
+
+.row.text-center {
+  font-family: "Open Sans";
+}
+
+.row.text-center h1 {
+  font-family: "Open Sans";
+  font-size: 44px;
+  color: #ecf0f1;
+}
+
+.row.text-center p {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #ecf0f1;
+}
+
+
 
 .intro {
   display: table;
@@ -32,6 +63,7 @@
 
 #about .text-center {
   margin-top: 4.33%;
+  margin-bottom: 4.33%;
 }
 
 #about h3 {
@@ -46,7 +78,7 @@
 
 #services {
   margin: 20px 0px 20px 0px;
-  background-color: #2980b9;
+  background-color: rgba(41, 128, 185, 0.8);
   color: #eee;
 }
 
