@@ -5,23 +5,38 @@
 }*/
 
 
+/*    body    */
+
+body {
+  background-color: #ecf0f1;
+}
+
+
+/*    Navigation    */
+
 .navbar {
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-family: "Open Sans"
+  background-color: rgba(26, 26, 26, 0.4);
+  font-family: "Open Sans";
 }
 
 .navbar .light, a {
   color: #ecf0f1;
+
 }
 
 a.navbar-brand.page-scroll:hover {
-  color: #2980b9;
+  color: rgba(236, 240, 241, 1);
 }
+
+
+
 
 i.fa {
   color: #fff;
 }
+
+/*    Header    */
 
 .row.text-center {
   font-family: "Open Sans";
@@ -39,8 +54,6 @@ i.fa {
   color: #ecf0f1;
 }
 
-
-
 .intro {
   display: table;
   width: 100%;
@@ -55,6 +68,9 @@ i.fa {
   background-size: cover;
   -o-background-size: cover;
 }
+
+
+/*    About    */
 
 #about {
   margin: 20px 0px 20px 0px;
@@ -76,6 +92,8 @@ i.fa {
   text-align: center;
 }
 
+/*    Services    */
+
 #services {
   margin: 20px 0px 20px 0px;
   background-color: rgba(41, 128, 185, 0.8);
@@ -92,26 +110,31 @@ i.fa {
   font-family: "Playfair Display";
   font-size: 38px;
 
-
 }
 
 #services h5 {
   margin: 10px;
   font-family: "Open Sans";
   font-weight: bold;
+  font-size: 28px;
 }
 
 #services p {
   font-family: "Open Sans";
   font-weight: lighter;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
 }
 
 
 
+
+/*    Partners    */
+
 #partners {
   margin: 20px 0px 20px 0px;
-  height: 200px;
+  height: auto;
 
 }
 
@@ -120,10 +143,31 @@ i.fa {
 
 }
 
+#partners .col-md-3 .fa {
+  color: rgba(51, 51, 51, 0.8);
+}
+
+#partners .col-md-3 h5 {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#partners .col-md-3 p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  margin: 10px;
+}
+
+
+/*    Footer    */
+
 footer {
   background-color: #34495e;
   color: #eee;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
