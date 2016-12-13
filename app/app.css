@@ -103,7 +103,7 @@ i.fa {
 
 #services {
   margin: 20px 0px 20px 0px;
-  background-color: rgba(41, 128, 185, 0.8);
+  background-color: rgba(52, 73, 94, 1);
   color: #eee;
 }
 
@@ -172,7 +172,7 @@ i.fa {
 /*    Footer    */
 
 footer {
-  background-color: #34495e;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #eee;
   height: 100px;
   display: flex;
