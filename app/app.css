@@ -57,6 +57,7 @@ i.fa {
   -o-background-size: cover;
 }
 
+
 .row.text-center {
   font-family: "Open Sans";
 }
@@ -70,6 +71,7 @@ i.fa {
 .row.text-center p {
   font-size: 36px;
   margin-top: 30px;
+  margin-bottom: 30px;
   color: #ecf0f1;
   font-family: "Playfair Display";
 }
@@ -92,6 +94,7 @@ i.fa {
 #about h3 {
   margin: 40px;
   font-family: "Playfair Display";
+  font-size: 36px;
 }
 
 #about p {
