@@ -113,9 +113,9 @@ i.fa {
 }
 
 #services h3 {
-  margin: 40px;
+  margin: 30px;
   font-family: "Playfair Display";
-  font-size: 38px;
+  font-size: 36px;
 
 }
 
@@ -123,15 +123,19 @@ i.fa {
   margin: 10px;
   font-family: "Open Sans";
   font-weight: bold;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 #services p {
   font-family: "Open Sans";
   font-weight: lighter;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+#services .col-sm-4 {
+
 }
 
 
