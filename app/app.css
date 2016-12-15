@@ -179,7 +179,7 @@ i.fa {
 /*    Team      */
 
 #team {
-  height: 500px;
+  height: auto;
   padding: 50px auto;
   background-color: rgba(52, 73, 94, 1);
   color: #eee;
