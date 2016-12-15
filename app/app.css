@@ -153,7 +153,7 @@ i.fa {
 }
 
 #partners .col-md-3 {
-  margin: 100px 0;
+  margin: 50px 0;
 
 }
 
@@ -173,6 +173,46 @@ i.fa {
   font-size: 14px;
   color: rgba(0, 0, 0, 1);
   margin: 10px;
+}
+
+
+/*    Team      */
+
+#team {
+  height: 500px;
+  padding: 50px auto;
+  background-color: rgba(52, 73, 94, 1);
+  color: #eee;
+
+}
+
+#team img {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+
+#team img:hover {
+      border-color:rgba(236, 240, 241, 0.8);
+  }
+
+#team p {
+  font-size: 18px;
+  color: black;
+}
+
+#team h3 {
+  margin: 40px auto;
+  font-size: 36px;
+  font-family: "Playfair Display";
+}
+
+#team h5 {
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Open Sans";
 }
 
 
