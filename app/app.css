@@ -243,7 +243,7 @@ footer {
 }
 
 
-footer .right {
+footer .left {
   color: #eee;
 }
 
@@ -259,16 +259,16 @@ footer .thumbnail h3 {
   margin: 20px auto;
 }
 
-footer .right form {
+footer .left form {
   background-color: inherit;
   color: rgb(51, 51, 51);
 }
 
-footer .right form input {
+footer .left form input {
   background-color:  #ecf0f1;
 }
 
-footer .right .thumbnail p {
+footer .left .thumbnail p {
   font-family: "Open Sans";
   font-size: 10px;
   margin-bottom: 20px;
@@ -280,13 +280,17 @@ footer .btn {
 
 }
 
-footer .left h2 {
+footer .right hr {
+  width: 320px;
+}
+
+footer .right h2 {
   font-family: "Playfair Display";
   font-size: 18px;
   margin: 20px auto;
 }
 
-footer .left p {
+footer .right p {
   font-family: "Open Sans";
   padding: 5px;
   line-height: 2;
@@ -294,7 +298,7 @@ footer .left p {
 }
 
 
-footer .left p.copyright {
+footer .right p.copyright {
   font-size: 8px;
   padding-top: 20px;
   padding-right: 10px;
@@ -302,7 +306,7 @@ footer .left p.copyright {
   padding-left: 10px;
 }
 
-footer .left a {
+footer .right a {
   padding: 30px 10px;
 }
 
