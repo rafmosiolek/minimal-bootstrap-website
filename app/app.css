@@ -283,6 +283,7 @@ footer .btn {
 footer .left h2 {
   font-family: "Playfair Display";
   font-size: 18px;
+  margin: 20px auto;
 }
 
 footer .left p {
@@ -291,6 +292,7 @@ footer .left p {
   line-height: 2;
   margin-bottom: 20px;
 }
+
 
 footer .left p.copyright {
   font-size: 8px;
@@ -303,4 +305,32 @@ footer .left p.copyright {
 footer .left a {
   padding: 30px 10px;
 }
+
+
+
+/*        MEDIA QUERIES         */
+
+
+@media all and (max-width: 767px) {
+  footer .thumbnail {
+      text-align: center;
+  }
+  .row.text-center h1 {
+    font-size: 36px;
+  }
+  .row.text-center p {
+    font-size: 22px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
