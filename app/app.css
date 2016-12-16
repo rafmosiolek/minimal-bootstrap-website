@@ -57,6 +57,10 @@ i.fa {
   -o-background-size: cover;
 }
 
+.intro a.btn {
+  border: 2px solid white;
+  border-radius: 50%;
+}
 
 .row.text-center {
   font-family: "Open Sans";
@@ -173,6 +177,7 @@ i.fa {
   font-size: 14px;
   color: rgba(0, 0, 0, 1);
   margin: 10px;
+  text-align: center;
 }
 
 
@@ -236,6 +241,7 @@ footer {
   height: auto;
 }
 
+
 footer .right {
   color: #eee;
 }
@@ -243,6 +249,10 @@ footer .right {
 footer .thumbnail {
   background-color: inherit;
   border: none;
+}
+
+footer .thumbnail h3 {
+  padding-top: 30px;
 }
 
 footer .right form {
@@ -271,4 +281,25 @@ footer .btn {
   color: rgb(51, 51, 51);
 }
 
+footer .left h2 {
+  font-family: "Playfair Display";
+}
+
+footer .left p {
+  font-family: "Open Sans";
+  padding: 5px;
+  line-height: 2;
+}
+
+footer .left p.copyright {
+  font-size: 13px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+footer .left a {
+  padding: 30px 10px;
+}
 
