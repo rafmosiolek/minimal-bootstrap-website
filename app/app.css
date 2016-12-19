@@ -15,6 +15,7 @@ body {
   font-family: "Open Sans";
   display: flex;
   align-items: center;
+  width: 100vw;
 }
 
 .navbar .light, a {
@@ -327,18 +328,19 @@ footer .right a {
     float: left;
   }
 
-  .navbar .collapse {
-    float: right;
-    margin: 10px;
+  .navbar-collapse {
+    background-color: rgba(52, 73, 94, 0.8);
+    width: 100vw;
   }
 
-.navbar-brand {
+  .navbar-brand {
     margin-top: 10px;
   }
 
   button.navbar-toggle {
     margin: 15px;
-    margin-left: 25px;
+    padding-right: 25px;
+
   }
 }
 
